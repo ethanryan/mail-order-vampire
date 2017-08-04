@@ -5,3 +5,9 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+
+.story-text {
+  white-space: pre-wrap;
+  /*preserve white space on new lines, spaces and tabs, and also wraps text*/
+}
