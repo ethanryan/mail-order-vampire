@@ -5,6 +5,7 @@ body, html {
 .story-title {
   padding-top: 50px;
   text-align: center;
+  font-family: "Times New Roman", Georgia, Serif;
 }
 
 .center {
@@ -12,6 +13,8 @@ body, html {
 }
 
 .story-text {
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: large;
   white-space: pre-wrap;
   /*preserve white space on new lines, spaces and tabs, and also wraps text*/
 }
@@ -38,9 +41,11 @@ body, html {
 .background-white-to-black-gradient {
     min-height: 650px;
     background-image: url(assets/transparent-square.jpg);
-    background: linear-gradient(to bottom,
-      rgba(0,0,0, 0), 35%, /* black, 0 opacity, changes color at 45% */
-      rgba(0,0,0, 1)); /* black, 1 opacity */
+
+    /*background: linear-gradient(to bottom, white, black); */
+
+    background: linear-gradient(to bottom, rgba(0,0,0, 0), 35%, rgba(0,0,0, 1));
+    /* above, black 0 opacity to black 1 opacity, change at 35% */
 }
 
 
