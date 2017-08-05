@@ -22,14 +22,12 @@ body, html {
     width: 100%;
     height: 100%;
     min-width: 100%;
-    min-height: 100%;
     background-attachment: fixed;
     /*fixed background-attachment is what gives the image the parallax effect*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 350px;
-    /*want to make height and/or min-height 100%, not pix...*/
 }
 
 
@@ -38,8 +36,11 @@ body, html {
 }
 
 .background-white-to-black-gradient {
-    min-height:850px;
-    background-image: url(assets/white-to-black-gradient.jpg);
+    min-height: 650px;
+    background-image: url(assets/transparent-square.jpg);
+    background: linear-gradient(to bottom,
+      rgba(0,0,0, 0), 35%, /* black, 0 opacity, changes color at 45% */
+      rgba(0,0,0, 1)); /* black, 1 opacity */
 }
 
 
@@ -68,7 +69,9 @@ body, html {
 }
 
 
-
+.fade {
+  opacity: 1;
+}
 
 
 
