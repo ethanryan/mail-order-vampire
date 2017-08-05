@@ -4,20 +4,20 @@ body, html {
 
 .story-title {
   padding-top: 50px;
-  /*padding: 40px 15px;*/
+  text-align: center;
+}
+
+.center {
   text-align: center;
 }
 
 .story-text {
   white-space: pre-wrap;
   /*preserve white space on new lines, spaces and tabs, and also wraps text*/
-
-  /*add margin to left and right here, but not in images */
-  /*only for large screen... default padding/margin looks good on mobile*/
 }
 
 
-/*also for parallax pix, can condense this code*/
+/* for parallax images */
 .background {
     width: 100%;
     height: 100%;
