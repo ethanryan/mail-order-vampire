@@ -66,3 +66,55 @@ body, html {
     /*background-size: contain;*/
     background-color: black;
 }
+
+
+
+
+
+
+/*testing screen size changing image, below*/
+
+#main-img {
+  height: 250px;
+  width: 100%;
+}
+
+/*small*/
+@media screen and (max-width: 767px) {
+  #main-img {
+    background-color: black;
+  }
+}
+
+/*medium*/
+@media screen and (min-width: 768px) {
+  #main-img {
+    background-color: blue;
+  }
+  .story-text {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+/*large*/
+@media screen and (min-width: 992px) {
+  #main-img {
+    background-color: green;
+  }
+  .story-text {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+/*extra-large*/
+@media screen and (min-width: 1200px) {
+  #main-img {
+    background-color: red;
+  }
+  .story-text {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
