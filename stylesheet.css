@@ -22,7 +22,7 @@ body, html {
 
 .story-text {
   font-family: "Times New Roman", Georgia, Serif;
-  font-size: large;
+  font-size: 20px;
   white-space: pre-wrap;
   /*preserve white space on new lines, spaces and tabs, and also wraps text*/
 }
